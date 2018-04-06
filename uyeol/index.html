@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Febitek Kayıt Formu</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/form-elements.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <link rel="shortcut icon" href="assets/ico/favicon.ico">
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    </head>
+    <body>
+            <nav class="navbar navbar-inverse navbar-no-bg" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="top-navbar-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <span class="li-text">
+                                    Bizi buralardan takip edebilirsiniz
+                                </span>
+                                <span class="li-social">
+                                    <a href="https://www.facebook.com/profile.php?id=100013111806464" target="_blank"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://www.instagram.com/febitekk" target="_blank"><i class="fa fa-instagram"></i></a>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Top content -->
+            <img src="assets/ico/apple-touch-icon.png">
+
+            <div class="top-content">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2 text">
+                            <h1><strong>Febitek</strong> Kayıt Formu</h1>
+                            <div class="description">
+                                <p>
+                                    Topluluğumuza Kayıt Olmak İçin Aşağıdaki  <strong>Bilgileri</strong>  Doldurunuz
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 form-box">
+                            <form role="form" action="member_registration.php" method="post" class="f1">
+                                <h3>Kayıt Formu</h3>
+                                <div class="f1-steps">
+                                    <div class="f1-progress">
+                                        <div class="f1-progress-line" data-now-value="16.66" data-number-of-steps="3" style="width: 16.66%;"></div>
+                                    </div>
+                                    <div class="f1-step active">
+                                        <div class="f1-step-icon"><i class="fa fa-user"></i></div>
+                                        <p>Hakkında</p>
+                                    </div>
+                                    <div class="f1-step">
+                                        <div class="f1-step-icon"><i class="fa fa-bank"></i></div>
+                                        <p>Fakülte Bölüm</p>
+                                    </div>
+                                    <div class="f1-step">
+                                        <div class="f1-step-icon"><i class="fa fa-info"></i></div>
+                                        <p>Son Olarak</p>
+                                    </div>
+                                </div>
+
+                                <fieldset>
+                                    <h4>Kim Olduğunu Biraz Anlat:</h4>
+                                    <div class="form-group">
+                                        <label class="sr-only" for="name">First name</label>
+                                        <input type="text" name="name" id="name" placeholder="Ad..." class="f1-first-name form-control" >
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="sr-only" for="surname">Last name</label>
+                                        <input type="text" name="surname" id="surname" placeholder="Soyad..." class="f1-last-name form-control" >
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="sr-only">Email</label>
+                                        <input type="text" name="email" placeholder="Email..." class="f1-email form-control" id="emai1">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="sr-only" for="schoolNumber">Password</label>
+                                        <input type="text" name="schoolNumber" id="schoolNumber" placeholder="Okul Numarası..." class="f1-password form-control" >
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="sr-only">Email1</label>
+                                        <input type="text" name="telephoneNumber" placeholder="Telefon..." class="f1-email form-control" id="telephoneNumber">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="sr-only" for="about">About yourself</label>
+                                        <textarea name="about" placeholder="Kendinden biraz bahsetsene..."
+                                                  class="f1-about-yourself form-control" id="about"></textarea>
+                                    </div>
+                                    <div class="f1-buttons">
+                                        <button type="button" class="btn btn-next">Sonraki</button>
+                                    </div>
+                                </fieldset>
+                                <fieldset>
+                                    <h4>Fakülte Bilgileri:</h4>
+                                    <div class="form-group">
+                                        <div class="form-group">
+                                            <select class="form-control" id="faculty" name="faculty">
+                                                <option value="Eğitim Fakültesi">Eğitim Fakültesi</option>
+                                                <option value="Fen Fakültesi">Fen Fakültesi</option>
+                                                <option value="İnsani Ve Sosyal Bilimler Fakültesi">İnsani Ve Sosyal Bilimler Fakültesi</option>
+                                                <option value="İktisadi Ve İdari Bilimler Fakültesi">İktisadi Ve İdari Bilimler Fakültesi</option>
+                                                <option value="İlahiyat Fakültesi">İlahiyat Fakültesi</option>
+                                                <option value="İletişim Fakültesi">İletişim Fakültesi</option>
+                                                <option value="Mühendislik Fakültesi">Mühendislik Fakültesi</option>
+                                                <option value="Su Ürünleri Fakültesi">Su Ürünleri Fakültesi</option>
+                                                <option value="Teknik Eğitim Fakültesi">Teknik Eğitim Fakültesi</option>
+                                                <option value="Teknoloji Fakültesi">Teknoloji Fakültesi</option>
+                                                <option value="Tıp Fakültesi">Tıp Fakültesi</option>
+                                                <option value="Veteriner Fakültesi">Veteriner Fakültesi</option>
+                                                <option value="Elazığ Sağlık Yüksek Okulu">Elazığ Sağlık Yüksek Okulu</option>
+                                                <option value="Yabancı Diller Yüksek Okulu">Yabancı Diller Yüksek Okulu</option>
+                                                <option value="Sivil Havacılık Yüksek Okulu">Sivil Havacılık Yüksek Okulu</option>
+                                                <option value="Baskil Meslek Yüksek Okulu">Baskil Meslek Yüksek Okulu</option>
+                                                <option value="Elazığ Organize Sanayi Bölgesi Maden Meslek Yüksek Okulu">Elazığ Organize Sanayi Bölgesi Maden Meslek Yüksek Okulu</option>
+                                                <option value="Karakoçan Meslek Yüksek Okulu">Karakoçan Meslek Yüksek Okulu</option>
+                                                <option value="Keban Meslek Yüksek Okulu">Keban Meslek Yüksek Okulu</option>
+                                                <option value="Kovancılar Meslek Yüksek Okulu">Kovancılar Meslek Yüksek Okulu</option>
+                                                <option value="Sağlık Hizmetleri Meslek Yüksek Okulu">Sağlık Hizmetleri Meslek Yüksek Okulu</option>
+                                                <option value="Sivrice Meslek Yüksek Okulu">Sivrice Meslek Yüksek Okulu</option>
+                                                <option value="Sosyal Bilimler Meslek Yüksek Okulu">Sosyal Bilimler Meslek Yüksek Okulu</option>
+                                                <option value="Teknik Bilimler Meslek Yüksek Okulu">Teknik Bilimler Meslek Yüksek Okulu</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="sr-only" for="program">Password</label>
+                                        <input type="text" name="program" placeholder="Bölüm..." class="f1-password form-control" id="program">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="sr-only" for="your_technical">About yourself</label>
+                                        <textarea name="your_technical" placeholder="Okuduğunuz Bölüme Dair Teknik ve Genel Bilgileriniz..."
+                                                  class="f1-about-yourself form-control" id="your_technical"></textarea>
+                                    </div>
+                                    <div class="f1-buttons">
+                                        <button type="button" class="btn btn-previous">Önceki</button>
+                                        <button type="button" class="btn btn-next">Sonraki</button>
+                                    </div>
+                                </fieldset>
+
+                                <fieldset>
+                                    <h4>Topluluğumuzdan Beklentileriniz:</h4>
+                                    <div class="form-group">
+                                        <label class="sr-only" for="expectation">About yourself</label>
+                                        <textarea name="expectation" placeholder="Beklentileriniz..."
+                                                  class="f1-about-yourself form-control" id="expectation"></textarea>
+                                    </div>
+                                    <h4>Topluluğumuza Ne Gibi Katkılarınız Olabilir:</h4>
+                                    <div class="form-group">
+                                        <label class="sr-only" for="mind">Fikirlerim...</label>
+                                        <textarea name="mind" placeholder="Fikirlerim..."
+                                                  class="f1-about-yourself form-control" id="mind"></textarea>
+                                    </div>
+                                    <div class="f1-buttons">
+                                        <button type="button" class="btn btn-previous">Önceki</button>
+                                        <button type="submit" class="btn btn-submit">Kaydımı Tamamla</button>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2017 Febitek Kayıt Formu |
+                    <a href="http://www.nrkdrk.com/" target="_blank">  Berk Can </a> Tarafından Hazırlandı
+                </p>
+            </div>
+            <!-- Javascript -->
+            <script src="assets/js/jquery-1.11.1.min.js"></script>
+            <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+            <script src="assets/js/jquery.backstretch.min.js"></script>
+            <script src="assets/js/retina-1.1.0.min.js"></script>
+            <script src="assets/js/scripts.js"></script>
+            <script src="assets/js/placeholder.js"></script>
+    </body>
+
+</html>
